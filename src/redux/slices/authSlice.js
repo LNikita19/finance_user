@@ -2,7 +2,7 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const BACKEND_URL = 'http://localhost:5000'; // Replace with your backend URL
+const BACKEND_URL = 'https://finace-server.vercel.app'; // Replace with your backend URL
 
 // Helper to get tokens from localStorage
 const getTokens = () => {

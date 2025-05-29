@@ -3,7 +3,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 import { refreshAccessToken } from './authSlice'; // To handle token expiry
 
-const BACKEND_URL = 'http://localhost:5000'; // NOT `/api`
+const BACKEND_URL = 'https://finace-server.vercel.app'; // NOT `/api`
 
 // Axios instance with interceptors for JWT
 const axiosInstance = axios.create({
